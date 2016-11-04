@@ -1,0 +1,58 @@
+#
+# define display information
+#
+name: Get Taxonomic Profiles with KRAKEN
+
+tooltip: |
+    Kraken is a fast k-mer based method for determining taxonomic profiles of metagenomic data
+
+screenshots: []
+
+icon: icon.png
+
+#
+# define a set of similar methods that might be useful to the user
+#
+suggestions:
+    apps:
+        related:
+            [app1, app2]
+        next:
+            [app3, app4]
+    methods:
+        related:
+            [method1, method2]
+        next:
+            [method3, method4]
+
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    input_reads_name :
+        ui-name : |
+            Input Reads
+        short-hint : |
+            Either a Reads Library or set of Reads Libraries (Reads Set)
+        long-hint : |
+            The Reads for which you want a taxonomic profile
+    output_taxonomic_profile_name :
+        ui-name : |
+            Output tax profile
+        short-hint : |
+            Taxonomic profile object
+        long-hint : |
+            The name for the output taxonomic profile
+
+description : |
+    <p>This is the KBase wrapper for KRAKEN.</p>
+    <p>Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. Previous attempts by other bioinformatics software to accomplish this task have often used sequence alignment or machine learning techniques that were quite slow, leading to the development of less sensitive but much faster abundance estimation programs. Kraken aims to achieve high sensitivity and high speed by utilizing exact alignments of k-mers and a novel classification algorithm.</p>
+
+publications : |
+    -
+        pmid: 24580807
+        display-text : |
+            'Wood DE, Salzberg SL. (2014) Kraken: ultrafast metagenomic sequence classification using exact alignments. Genome Biol. 2014 Mar 3;15(3):R46. doi: 10.1186/gb-2014-15-3-r46'
+        link: https://www.ncbi.nlm.nih.gov/pubmed/24580807
+	link: http://ccb.jhu.edu/software/kraken/
