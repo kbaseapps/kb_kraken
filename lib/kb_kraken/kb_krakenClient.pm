@@ -124,7 +124,7 @@ $params is a kb_kraken.RunKrakenParams
 $output is a kb_kraken.RunKrakenOutput
 RunKrakenParams is a reference to a hash where the following keys are defined:
 	workspace_name has a value which is a string
-	input_reads_name has a value which is a string
+	input_reads_ref has a value which is a string
 	output_tax_profile_name has a value which is a string
 RunKrakenOutput is a reference to a hash where the following keys are defined:
 	report_name has a value which is a string
@@ -140,7 +140,7 @@ $params is a kb_kraken.RunKrakenParams
 $output is a kb_kraken.RunKrakenOutput
 RunKrakenParams is a reference to a hash where the following keys are defined:
 	workspace_name has a value which is a string
-	input_reads_name has a value which is a string
+	input_reads_ref has a value which is a string
 	output_tax_profile_name has a value which is a string
 RunKrakenOutput is a reference to a hash where the following keys are defined:
 	report_name has a value which is a string
@@ -310,7 +310,7 @@ Insert your typespec information here.
 <pre>
 a reference to a hash where the following keys are defined:
 workspace_name has a value which is a string
-input_reads_name has a value which is a string
+input_reads_ref has a value which is a string
 output_tax_profile_name has a value which is a string
 
 </pre>
@@ -321,7 +321,7 @@ output_tax_profile_name has a value which is a string
 
 a reference to a hash where the following keys are defined:
 workspace_name has a value which is a string
-input_reads_name has a value which is a string
+input_reads_ref has a value which is a string
 output_tax_profile_name has a value which is a string
 
 

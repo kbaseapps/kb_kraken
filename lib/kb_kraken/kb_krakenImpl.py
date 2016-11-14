@@ -19,8 +19,8 @@ class kb_kraken:
     # the latter method is running.
     #########################################
     VERSION = "0.0.1"
-    GIT_URL = ""
-    GIT_COMMIT_HASH = ""
+    GIT_URL = "https://github.com/kbaseapps/kb_kraken.git"
+    GIT_COMMIT_HASH = "cca72ae0bb374380a6728364e7617aa52807a7da"
     
     #BEGIN_CLASS_HEADER
     #END_CLASS_HEADER
@@ -37,8 +37,8 @@ class kb_kraken:
         """
         :param params: instance of type "RunKrakenParams" (Insert your
            typespec information here.) -> structure: parameter
-           "workspace_name" of String, parameter "input_reads_name" of
-           String, parameter "output_tax_profile_name" of String
+           "workspace_name" of String, parameter "input_reads_ref" of String,
+           parameter "output_tax_profile_name" of String
         :returns: instance of type "RunKrakenOutput" -> structure: parameter
            "report_name" of String, parameter "report_ref" of String
         """

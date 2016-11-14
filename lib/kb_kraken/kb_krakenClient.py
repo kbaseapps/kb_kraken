@@ -37,8 +37,8 @@ class kb_kraken(object):
         """
         :param params: instance of type "RunKrakenParams" (Insert your
            typespec information here.) -> structure: parameter
-           "workspace_name" of String, parameter "input_reads_name" of
-           String, parameter "output_tax_profile_name" of String
+           "workspace_name" of String, parameter "input_reads_ref" of String,
+           parameter "output_tax_profile_name" of String
         :returns: instance of type "RunKrakenOutput" -> structure: parameter
            "report_name" of String, parameter "report_ref" of String
         """

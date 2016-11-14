@@ -9,7 +9,7 @@ module kb_kraken {
 
     typedef structure {
         string workspace_name;
-        string input_reads_name;  /* readsLibrary or readsSet */
+        string input_reads_ref;  /* readsLibrary or readsSet */
         string output_tax_profile_name;  /* output tax profile object */
     } RunKrakenParams;
     

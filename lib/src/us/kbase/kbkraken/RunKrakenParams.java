@@ -22,15 +22,15 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @Generated("com.googlecode.jsonschema2pojo")
 @JsonPropertyOrder({
     "workspace_name",
-    "input_reads_name",
+    "input_reads_ref",
     "output_tax_profile_name"
 })
 public class RunKrakenParams {
 
     @JsonProperty("workspace_name")
     private String workspaceName;
-    @JsonProperty("input_reads_name")
-    private String inputReadsName;
+    @JsonProperty("input_reads_ref")
+    private String inputReadsRef;
     @JsonProperty("output_tax_profile_name")
     private String outputTaxProfileName;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
@@ -50,18 +50,18 @@ public class RunKrakenParams {
         return this;
     }
 
-    @JsonProperty("input_reads_name")
-    public String getInputReadsName() {
-        return inputReadsName;
+    @JsonProperty("input_reads_ref")
+    public String getInputReadsRef() {
+        return inputReadsRef;
     }
 
-    @JsonProperty("input_reads_name")
-    public void setInputReadsName(String inputReadsName) {
-        this.inputReadsName = inputReadsName;
+    @JsonProperty("input_reads_ref")
+    public void setInputReadsRef(String inputReadsRef) {
+        this.inputReadsRef = inputReadsRef;
     }
 
-    public RunKrakenParams withInputReadsName(String inputReadsName) {
-        this.inputReadsName = inputReadsName;
+    public RunKrakenParams withInputReadsRef(String inputReadsRef) {
+        this.inputReadsRef = inputReadsRef;
         return this;
     }
 
@@ -92,7 +92,7 @@ public class RunKrakenParams {
 
     @Override
     public String toString() {
-        return ((((((((("RunKrakenParams"+" [workspaceName=")+ workspaceName)+", inputReadsName=")+ inputReadsName)+", outputTaxProfileName=")+ outputTaxProfileName)+", additionalProperties=")+ additionalProperties)+"]");
+        return ((((((((("RunKrakenParams"+" [workspaceName=")+ workspaceName)+", inputReadsRef=")+ inputReadsRef)+", outputTaxProfileName=")+ outputTaxProfileName)+", additionalProperties=")+ additionalProperties)+"]");
     }
 
 }
